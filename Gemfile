@@ -35,6 +35,9 @@ group :development do
 end
 
 group :test do
+  gem 'rspec'
+  gem 'factory_bot'
+  gem 'shoulda-matchers'
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'webdrivers'
